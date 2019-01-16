@@ -1,0 +1,178 @@
+<!DOCTYPE html><html lang="ru"><head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Crypto Balls</title>
+	<link rel="stylesheet" href="./css/main.min.081f2a75.css" crossorigin="anonymous" integrity="sha384-YKM3davY6pTtuYmVQaAoOQITBnHN67bf7MDGwlXNkk7INQRcU4bI3CTQ6lTNpyf0">
+	<link rel="apple-touch-icon" sizes="57x57" href="./apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="./apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="./apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="./apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="./apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="./apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="./apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="./apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="./apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="./android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="./favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="./ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+	<link rel="manifest" href="./manifest.json">
+</head>
+<body>
+	<div id="loader-wrapper">
+		<div id="loader">
+			<div class="circle circle-1"></div>
+			<div class="circle circle-1a"></div>
+			<div class="circle circle-2"></div>
+			<div class="circle circle-3"></div>
+			<h1>Loading...</h1>
+		</div>
+		<div class="loader-section section-left"></div>
+		<div class="loader-section section-right"></div>
+	</div>
+	<header class="header">
+		<div class="header-container">
+			<div class="header-wrapper">
+				<div class="logo">
+					<img src="img/logo.png" alt="">
+				</div>
+				<a href="buy.html" class="button button-header action">Buy ticket</a>
+				<nav>
+					<ul>
+						<li><a href="index.html">About</a></li>
+						<li><a href="archive.html">Archive draws</a></li>
+						<li><a href="regulation.html" class="active">Rules</a></li>
+						<li class="action"><a href="myticket.html">My tickets <span data-tw-scope="Contract645" data-tw-bind="myTicketsCount">0</span></a></li>
+						<li class="action"><a href="referrals.html">Referrals</a></li>
+					</ul>
+				</nav>
+				<div class="btn-popup-menu">Menu</div>
+				<div class="output">
+					<div class="output-number">
+						<p data-tw-scope="Contract645" data-tw-bind="myBalance" data-tw-filter="ether">0</p>
+						<span>ETH</span>
+					</div>
+					<a href="#" class="withdraw action">Withdraw</a>
+				</div>
+			</div>
+		</div>
+		<div class="header-line">
+			<span>Open ETH lottery</span>
+		</div>
+	</header>
+
+	<main class="main regulation">
+		<div class="container">
+			<div class="regulation-wrapper">
+				<div class="regulation-title">
+					<h1>Правила лотереи</h1>
+				</div>
+				<div class="tabs">
+				    <ul>
+						<li><a href="#1">How to fill the ticket?</a></li>
+						<li><a href="#2">What can I win?</a></li>
+						<li><a href="#3">How to know draw result?</a></li>
+						<li><a href="#4">How to get prize?</a></li>
+						<li><a href="#5">Gas and fees</a></li>
+				    </ul>
+                    <div id="0">
+                        <h2>You should use Chrome or Firefox web browser for correct work with blockchain network.</h2>
+                        <p>Install Metamask plugin for connect to the Ethereum blockchain network.
+                            <br>– Download for Chrome: <a href="https://chrome.google.com/webstore/detail/nkbihfbeogaeaoehlefnkodbefgpgknn" target="_blank">Install</a>
+                            <br>– Download for Firefox: <a href="https://addons.mozilla.org/en-US/firefox/addon/ether-metamask/" target="_blank">Install</a>
+                        </p>
+                        <p>Website also support mobile apps <a href="https://trustwallet.com/" target="_blank">Trust</a> and <a href="https://www.cipherbrowser.com/" target="_blank">Cipher browser</a>.</p>
+                    </div>
+				    <div id="1">
+						<h2>How to fill the ticket?</h2>
+						<p><img src="./img/example.png" srcset="./img/example@2x.png 2x" class="img-example"></p>
+						<p>Mark 6 different numbers.</p>
+						<p>• Using buttons "Random", "Odd", "Even", you can choose numbers automatically.</p>
+						<p>• Choose draws count for buy and register tickets with same numbers to several draws.</p>
+						<p>Click to Buy button and pay by ETH. Your ticket will be registered to the next draw. Congratulation!</p>
+					</div>
+					<div id="2">
+						<h2>What can I win?</h2>
+						<p>You won if you guessed 2, 3, 4, 5 or 6 numbers of draw numbers.</p>
+						<p>Prize fund is 65% of draw revenue.</p>
+						<p>All winners, who guessed 2 numbers will get new ticket, which can be registered to any future draw. For the rest winners, the prize fund will be distributed to the following percentage:</p>
+						<table class="data_table">
+							<thead>
+								<tr>
+									<th>Guessed numbers</th>
+									<th>Prize fund percentage</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr><td>6 (Superprize)</td><td>58%</td></tr>
+								<tr><td>5</td><td>16%</td></tr>
+								<tr><td>4</td><td>8%</td></tr>
+								<tr><td>3</td><td>18%</td></tr>
+							</tbody>
+						</table>
+						<p>You won the Superprize if you guessed 6 numbers. Super prize is accumulative. If no one guessed 6 numbers, Superprize goes to the next draw.</p>
+						<p>Subscribing to the notifications after buying a ticket, you will receive notification if your ticket won.</p>
+					</div>
+					<div id="3">
+						<h2>How to know draw result?</h2>
+						<p>You can find draw results in section <a href="archive.html">Archive draws</a>.</p>
+						<p>You can find which of tickets won in section <a href="myticket.html">My tickets</a>.</p>
+					</div>
+					<div id="4">
+						<h2>How to get prize?</h2>
+						<p><img src="./img/ticketwin.png" srcset="./img/ticketwin@2x.png 2x" class="img-example"></p>
+						<p>If your ticket won, you will see the button "Take the prize". Click to the button and send transaction, you will receive prize to your game balance. Your balance will increase after transaction will be mined in Ethereum blockchain network. It can take a few minutes.<br>If you guessed 2 numbers, you will get a new ticket after clicking to button "Take the prize". You will able to fill and register it to the next draw in section <a href="myticket.html">My tickets</a>.</p>
+						<p>Click "Withdraw" link and send transaction for withdraw your game balance to your real ETH wallet. Your wallet increase after few minutes, after transaction will be mined in Ethereum blockchain network.</p>
+					</div>
+					<div id="5">
+						<h2>Gas and fees</h2>
+						<p>Whenever you purchase ticket, register ticket, getting winnings, withdraw your request gets sent to miners on the Ethereum blockchain network who confirm the transaction. For that service the miners receive a fee paid by the person submitting the transaction request (please note that entire fee goes to the miners, not us!). That fee, sometimes written as “Tx fee,” is determined by two factors: Your selected “Gas Price” and the amount of gas used.</p>
+						<p><img src="./img/gas.png" srcset="./img/gas@2x.png 2x" class="img-example"></p>
+						<p>Gas Price (Gwei) is the amount of Ether you offer to pay miners to process your transaction. Converting Gwei into Ether is simple: take the Gwei value and move the decimal point nine spaces to the left. So, 5 Gwei equals 0.000000005 ether.</p>
+						<p>“Gas Limit” sets the maximum amount of computational power you’ll allow the miner to use before they top out and stop processing your request. Essentially gas limit creates a ceiling on how much ether you want to spend on a given transaction as a way to keep costs reasonable. We recommend not tinkering with your gas limit, as MetaMask will always suggest the exact amount of gas to be used.</p>
+						<p>To calculate the maximum possible fee for a given transaction, multiply your gas price by your gas limit. So, as per our examples above, the maximum possible transaction fee in this instance would be:</p>
+						<p>250,000 x 5 Gwei = 250,000 x 0.000000005 = 0.00125 ETH.</p>
+						<h2>What gas price should I use?</h2>
+						<p>Setting a gas price is up to you – some people are more gassy than others – but there are helpful guidelines. The higher the gas price you set, the faster your transaction will get processed. So for more important transactions, think about setting a higher gas price.</p>
+						<p>​<a href="https://ethgasstation.info/" target="_blank">ETH Gas Station</a> is a valuable tool to help manually set your gas price. Use their suggested “Gas Price Std” to make sure a transaction goes through quickly (usually, a few minutes). Select the Gas Price SafeLow for less important transactions that you’re willing to wait on (typically around thirty minutes, depending on network traffic). The Gas Station also shows you approximately how long a transaction will take at a specific Gas Price and lets you select your price based on the time you’re willing to wait.</p>
+						<p><img src="./img/ethgas.png" srcset="./img/ethgas@2x.png 2x" class="img-example"></p>
+						<p>Keep in mind that your actual transaction fee will almost always be lower than the potential maximum – great! Once a miner executes your transaction, you keep whatever ether is left over from your gas limit. But if your gas limit is too low and the miner maxes out, your transaction will get cancelled and you’ll still have to pay the max fee – not so great. So make sure to choose a gas limit with enough room to guarantee your transaction goes through. Remember, MetaMask will always suggest the exact amount of gas to use so there’s no need to adjust.</p>
+					</div>
+				</div>
+			</div>
+			<img src="img/icon/logo-fon.png" class="logo-fon">
+		</div>
+	</main>
+
+	<footer class="footer">
+		<div class="header-container">
+			<div class="footer-wrapper">
+				<div class="footer-block">
+					<a href="#">Русская версия</a>
+					<a href="#">Contacts</a>
+					<p>© 2019 CryptoBalls</p>
+				</div>
+				<div class="footer-block">
+					<p>Smart contract #1 <span data-tw-scope="Contract645" data-tw-bind="contractAddress" data-tw-filter="contract">-</span></p>
+					<p>Smart contract #2 <span data-tw-scope="Contract645" data-tw-bind="drawAddress" data-tw-filter="contract">-</span></p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js"></script>
+	<script src="./js/app.min.f9908f98.js" crossorigin="anonymous" integrity="sha384-cDnvNqHMRrEBIrYZRVDab7Ynq19405HxSvaSd+Jppgqe8/vz8cXX4c6YfjGjY/6X"></script>
+	<script>
+        let interval = setInterval(() => {
+            if (Contract645.ready) {
+                clearInterval(interval);
+                $('body').addClass('loaded');
+            }
+        });
+	</script>
+
+</body></html>
