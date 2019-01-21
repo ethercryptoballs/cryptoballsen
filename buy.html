@@ -2,7 +2,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Crypto Balls</title>
-	<link rel="stylesheet" href="./css/main.min.ac5ffcbd.css" crossorigin="anonymous" integrity="sha384-grrtAD1yMBfqhe1BCdGB8xZBw9F5VVAxAFJboWLoJeezom9OV8deyYs2qDf8sRrL">
+	<link rel="stylesheet" href="./css/main.min.d755fe31.css" crossorigin="anonymous" integrity="sha384-V86lxEpDfp5bHc6lGe1RE2yyCs5nMdmaFsFY13lCWChnx0eDaEPI9VVB7W5JMTIg">
 	<link rel="apple-touch-icon" sizes="57x57" href="./img/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="./img/apple-icon-60x60.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="./img/apple-icon-72x72.png">
@@ -39,28 +39,28 @@
 				<div class="logo">
 					<img src="img/logo.png" alt="">
 				</div>
-				<a href="buy.html" class="button button-header action">Купить билет</a>
+				<a href="buy.html" class="button button-header action">Buy ticket</a>
 				<nav>
 					<ul>
-						<li><a href="index.html">О лотерее</a></li>
-						<li><a href="archive.html">Архив тиражей</a></li>
-						<li><a href="regulation.html">Правила</a></li>
-						<li class="action"><a href="myticket.html">Мои билеты <span data-tw-scope="Contract645" data-tw-bind="myTicketsCount">0</span></a></li>
-						<li class="action"><a href="referrals.html">Рефералы</a></li>
+						<li><a href="index.html">About</a></li>
+						<li><a href="archive.html">Archive draws</a></li>
+						<li><a href="regulation.html">Rules</a></li>
+						<li class="action"><a href="myticket.html">My tickets <span data-tw-scope="Contract645" data-tw-bind="myTicketsCount">0</span></a></li>
+						<li class="action"><a href="referrals.html">Referrals</a></li>
 					</ul>
 				</nav>
-				<div class="btn-popup-menu">Навигация</div>
+				<div class="btn-popup-menu">Menu</div>
 				<div class="output">
 					<div class="output-number">
 						<p data-tw-scope="Contract645" data-tw-bind="myBalance" data-tw-filter="ether">0</p>
 						<span>ETH</span>
 					</div>
-					<a href="#" class="withdraw action">Вывести</a>
+					<a href="#" class="withdraw action">Withdraw</a>
 				</div>
 			</div>
 		</div>
 		<div class="header-line">
-			<span>Открытая ETH лотерея</span>
+			<span>Open ETH lottery</span>
 		</div>
 	</header>
 
@@ -68,11 +68,11 @@
 		<div class="container">
 			<div class="container-block container-block-ticket">
 				<div class="block-ticket-title">
-					<h1>Купить билет</h1>
+					<h1>Buy ticket</h1>
 				</div>
 				<div class="block-ticket-description-addticket">
 					<div class="block-ticket-description">
-						<p>Отметьте от 2 до 6 чисел. Чем больше чисел отмечено – тем выше вероятность выигрыша.</p>
+						<p>Choose 6 numbers.</p>
 					</div>
 					<!--<a href="#" class="block-ticket-addticket"><span>+</span>Добавить билет</a>-->
 				</div>
@@ -80,18 +80,18 @@
 			</div>
 			<div class="container-block container-block-buy" id="sticky">
 				<div class="block-buy-title">
-					<h1>Тираж №<i data-tw-scope="Contract645" data-tw-bind="drawNumber">-</i></h1>
+					<h1>Draw #<i data-tw-scope="Contract645" data-tw-bind="drawNumber">-</i></h1>
 					<p data-tw-scope="Contract645" data-tw-bind="nextDrawDateTime" data-tw-filter="date"></p>
 				</div>
 				<div class="block-buy-body">
 					<div class="block-buy-body-title">
-						<h1>Суперприз – <i data-tw-scope="Contract645" data-tw-bind="superPrize" data-tw-filter="ether">-</i></h1>
+						<h1>Superprize – <i data-tw-scope="Contract645" data-tw-bind="superPrize" data-tw-filter="ether">-</i></h1>
 						<span>ETH</span>
 					</div>
 					<div class="block-buy-body-info">
 						<ul>
 							<li class="draw-counts" style="display: none;">
-								<p>Кол-во тиражей</p>
+								<p>Draws</p>
 								<span>
 									<select id="draw-count">
 										<option value="1" selected="">1</option>
@@ -102,17 +102,17 @@
 									</select>
 								</span>
 							</li>
-							<li><p>Билетов</p><span id="tickets-total">0</span></li>
+							<li><p>Tickets</p><span id="tickets-total">0</span></li>
 						</ul>
 					</div>
 					<div class="block-buy-body-price">
-						<h1>Сумма</h1>
+						<h1>Total</h1>
 						<div class="block-buy-body-price-wrapper">
 							<p id="price-total">0</p>
 							<span>ETH</span>
 						</div>
 					</div>
-					<a href="#" class="button button-buy action">Купить</a>
+					<a href="#" class="button button-buy action">Buy</a>
 				</div>
 			</div>
 		</div>
@@ -122,14 +122,14 @@
 		<div class="header-container">
 			<div class="footer-wrapper">
 				<div class="footer-block">
-					<a href="https://ethercryptoballs.io">English version</a>
-					<a href="#">Контактная информация</a>
+					<a href="https://ru.ethercryptoballs.io">Русская версия</a>
+					<a href="#">Contacts</a>
 					<p>© 2019 CryptoBalls</p>
 				</div>
 				<div class="footer-block">
-					<p>Контракт #1 <span data-tw-scope="Contract645" data-tw-bind="contractAddress" data-tw-filter="contract">-</span></p>
-					<p>Контракт #2 <span data-tw-scope="Contract645" data-tw-bind="drawAddress" data-tw-filter="contract">-</span></p>
-					<p>ГСЧ скрипт <span data-tw-scope="Contract645" data-tw-bind="ipfsHash" data-tw-filter="ipfs">-</span></p>
+					<p>Smart contract #1 <span data-tw-scope="Contract645" data-tw-bind="contractAddress" data-tw-filter="contract">-</span></p>
+					<p>Smart contract #2 <span data-tw-scope="Contract645" data-tw-bind="drawAddress" data-tw-filter="contract">-</span></p>
+					<p>Random generator <span data-tw-scope="Contract645" data-tw-bind="ipfsHash" data-tw-filter="ipfs">-</span></p>
 				</div>
 			</div>
 		</div>
@@ -137,7 +137,7 @@
 
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 	<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js"></script>
-	<script src="./js/app.min.20fa7462.js" crossorigin="anonymous" integrity="sha384-bDQdWo8/8Pepn711fQpbpxDE9CBbF5CHQpDqUaTwU/DhoUZb2s3Mk8wnJpry0dPQ"></script>
+	<script src="./js/app.min.8ee3e842.js" crossorigin="anonymous" integrity="sha384-q8MYhUyh14g03I8pA2o8kufjmJclQBdbJKmRjz0WNkkyTX7+vnRTkgu1RkHo1yj4"></script>
 	<script>
 		let interval = setInterval(() => {
 			if (Contract645.ticketPrice) {
